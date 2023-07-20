@@ -3,19 +3,25 @@
 /* font-family: 'Comfortaa', cursive; */
 
 * {
-    margin: 0;
-    padding: 0;
     font-family: 'Comfortaa', cursive;
     font-weight: 300;
     box-sizing: border-box;
     flex-wrap: wrap;
 }
-
+head {
+    background-image: url(./assets/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 20px;
+}
 body {
     background-image: url(./assets/bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #logo-ranking-politicos {
